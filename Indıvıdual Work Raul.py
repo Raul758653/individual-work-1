@@ -2,7 +2,6 @@ import json
 import os
 data_file = "inventory.json"
 
-# Load existing dat
 def load_data():
     if os.path.exists(data_file):
         with open(data_file, "r") as file:
